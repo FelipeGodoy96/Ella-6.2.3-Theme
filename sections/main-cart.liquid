@@ -417,8 +417,8 @@
                                     </div>
                                 {%- endif -%}
                                 <div class="action-group">
-                                    <button class="button button-1 button-checkout" {% if settings.show_global_checkbox %} disabled="disabled" {% endif %} id="cart-checkout">
-                                        {{ 'sections.cart.proceed_to_checkout' | t }}
+                                    <button type="submit" id="checkout" class="button button-1 button-checkout" {% if settings.show_global_checkbox %} disabled="disabled" {% endif %} id="cart-checkout">
+                                        {{ 'sections.cart.checkout' | t }}
                                     </button>
                                     {% if continue_button_action == "1" %}
                                         <a class="button button-2 button-continue" href="{{ custom_button_link }}" role="button">

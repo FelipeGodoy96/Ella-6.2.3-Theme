@@ -1935,7 +1935,7 @@ summary::-webkit-details-marker {
     .header-top{
         display: none;
         position: relative;
-        background-color: var(--bg-white);
+       /background-color: var(--bg-white);
         padding-top: 15px;
         padding-bottom: 16px;
     }

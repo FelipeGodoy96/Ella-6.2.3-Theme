@@ -9,3 +9,23 @@
 // Please use only CSS to style the layout.
 //
 // =============================================================================*/
+
+.header-top {
+      background: #FEFEFE !important;
+}
+
+.header__heading .h2 {
+    color: white !important;
+}
+
+.header-04 {
+    border-top: 5px solid #037BCB !important;
+}
+
+#shopify-section-header-04 > sticky-header > header > div.header-bottom > div.main-menu.fixed-center {
+  background: #F8F8F8 !important;
+}
+
+s.price-item.price-item--regular {
+    color: red;
+}
